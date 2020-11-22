@@ -11,4 +11,4 @@ culture.
 
 Here is a screenshot of the genre selection inside the app.
 
-![Genre](Screen Shot 2020-11-22 at 10.09.59 AM.png)
+![Genre](Screen%20Shot%202020-11-22%20at%2010.09.59%20AM.png)
