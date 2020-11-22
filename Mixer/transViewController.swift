@@ -7,38 +7,111 @@
 //
 
 import UIKit
+import FirebaseStorage
+import FirebaseDatabase
+import FirebaseAuth
 
 class transViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
+    
+    let userID = Auth.auth().currentUser?.uid
+    var ref = Database.database().reference()
+    var name = " "
+    var email = " "
+    var imagePicker = UIImagePickerController()
 
-    @IBOutlet weak var imageView: UIImageView!
-    
-   
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleSelectorProfileImageView)))
-        imageView.isUserInteractionEnabled = true
-        
-        // Do any additional setup after loading the view.
-    }
-    
-    let storageRef = 
+    @IBOutlet var imageView: UIImageView!
     
     @IBAction func submit(_ sender: UIButton) {
         
+        if UIImagePickerController.isSourceTypeAvailable(.savedPhotosAlbum){
+                print("Button capture")
+
+                imagePicker.delegate = self
+                imagePicker.sourceType = .savedPhotosAlbum
+                imagePicker.allowsEditing = false
+
+                present(imagePicker, animated: true, completion: nil)
+            }
+    }
         
+        
+    func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!){
+            self.dismiss(animated: true, completion: { () -> Void in
+
+            })
+
+          DispatchQueue.main.async {
+            self.imageView.image = image
+            self.imageView.setNeedsDisplay()
+            }
+        }
+
+        
+
+    override func viewDidLoad() {
+            super.viewDidLoad()
+            
+ //           textView.layer.borderColor = UIColor.white.cgColor
+ //           textView.layer.borderWidth = 2
+            // Do any additional setup after loading the view, typically from a nib.
+        }
+        
+    override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+            // Dispose of any resources that can be recreated.
+      
+        }
+    
+    @IBAction func done(_ sender: UIButton) {
+    
+    performSegue(withIdentifier: "tableSeg", sender: self)
+    
     }
     
-    /*
-    // MARK: - Navigation
+    
+    
+        
+        //share with social medai found on phone
+        
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        @IBAction func takePhoto(_ sender: AnyObject) {
+            //takes photo from inbuilt photo function, saves it and calls recognition function
+            if UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.camera) {
+                let imagePicker = UIImagePickerController()
+                imagePicker.delegate = self as? UIImagePickerControllerDelegate & UINavigationControllerDelegate
+                imagePicker.sourceType = UIImagePickerController.SourceType.camera
+                imagePicker.allowsEditing = false
+                self.present(imagePicker, animated: true, completion: nil)
+            }
+            
+        }
+        
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+            if let pickedImage = info["UIImagePickerControllerOriginalImage"] as? UIImage {
+               
+                DispatchQueue.main.async {
+                    self.imageView.image = pickedImage
+                    self.imageView.setNeedsDisplay()
+                  }
+
+               
+            }
+            picker.dismiss(animated: true, completion: nil)
     }
-    */
-
+    
+        override func touchesBegan(_ touches:Set<UITouch>, with event: UIEvent?){
+            self.view.endEditing(true)
+        }
+        
 }
+        
+    
+  
+
+
+
+
+
+
+        
+

@@ -10,7 +10,7 @@ target 'Mixer' do
    pod 'Firebase/Firestore'
    pod 'FirebaseFirestoreSwift'  
    pod 'Firebase/Database'
-
+   pod 'Alamofire', '~> 5.2'
   # Pods for Mixer
 
   target 'MixerTests' do
