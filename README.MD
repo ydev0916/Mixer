@@ -10,4 +10,5 @@ The Mobile App allows users to create an profile for themselves. They can then p
 culture.
 
 Here is a screenshot of the genre selection inside the app.
-![screenshot](Screen Shot 2020-11-22 at 10.09.59 AM.png)
+
+![Genre](Screen Shot 2020-11-22 at 10.09.59 AM.png)
