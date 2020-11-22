@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< Updated upstream
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HNa-4d-VLh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HNa-4d-VLh">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
-    <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
->>>>>>> Stashed changes
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -287,40 +279,20 @@
             </objects>
             <point key="canvasLocation" x="-1062" y="223"/>
         </scene>
-        <!--Trans View Controller-->
+        <!--View Controller-->
         <scene sceneID="6z3-Nu-NWp">
             <objects>
-<<<<<<< Updated upstream
                 <viewController id="cir-cV-Xvx" sceneMemberID="viewController">
-=======
-                <viewController id="cir-cV-Xvx" customClass="transViewController" customModule="Mixer" customModuleProvider="target" sceneMemberID="viewController">
->>>>>>> Stashed changes
                     <view key="view" contentMode="scaleToFill" id="ymd-cS-S0c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< Updated upstream
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcq-a6-epY">
                                 <rect key="frame" x="79" y="486" width="272" height="221"/>
-=======
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congratulations, you have succesfully created an account! Please upload a picture to be used as your profile photo!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgV-Xl-LYi">
-                                <rect key="frame" x="20" y="129" width="374" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pfp" translatesAutoresizingMaskIntoConstraints="NO" id="XUq-bs-8bk">
-                                <rect key="frame" x="81" y="322" width="253" height="253"/>
->>>>>>> Stashed changes
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkM-j4-P68">
-                                <rect key="frame" x="213" y="663" width="144" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="sbumit"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="submit:" destination="cir-cV-Xvx" eventType="touchUpInside" id="j0X-MR-Gxy"/>
+                                    <segue destination="Yxo-YN-m0z" kind="presentation" id="aa6-uL-rpa"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="succ.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XXD-Px-C9R">
@@ -336,20 +308,12 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="304-D7-dQB"/>
-<<<<<<< Updated upstream
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-=======
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
->>>>>>> Stashed changes
                     </view>
-                    <navigationItem key="navigationItem" id="lAK-yW-b5N"/>
-                    <connections>
-                        <outlet property="imageView" destination="XUq-bs-8bk" id="d9m-W8-wCf"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ZN-Wk-mvh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2160.8695652173915" y="-1325.2232142857142"/>
+            <point key="canvasLocation" x="-23.188405797101453" y="-1240.1785714285713"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="EFK-Ue-diP">
@@ -362,17 +326,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzT-g5-3au">
                                 <rect key="frame" x="29" y="413" width="357" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< Updated upstream
                                 <color key="backgroundColor" red="0.30564707520000001" green="0.83131587510000005" blue="0.82353514429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-=======
-                                <color key="backgroundColor" systemColor="systemBrownColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <state key="normal" title="Login"/>
->>>>>>> Stashed changes
                                 <connections>
                                     <action selector="login:" destination="HNa-4d-VLh" eventType="touchUpInside" id="L6X-hJ-sNI"/>
                                     <segue destination="Xa6-wj-jUX" kind="presentation" identifier="loginSeg" id="Kuh-ML-1f7"/>
@@ -381,19 +339,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Av-ZZ-1jU">
                                 <rect key="frame" x="29" y="461" width="357" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< Updated upstream
                                 <color key="backgroundColor" red="0.1499539614" green="0.33845943210000001" blue="0.4666830897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-=======
-                                <color key="backgroundColor" systemColor="systemBrownColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <state key="normal" title="Create Account"/>
->>>>>>> Stashed changes
                                 <connections>
                                     <action selector="createAcc:" destination="HNa-4d-VLh" eventType="touchUpInside" id="3o2-ws-RQq"/>
+                                    <segue destination="cir-cV-Xvx" kind="presentation" identifier="createAccSeg" id="qGC-Px-wYn"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JSF-88-GI4">
@@ -421,11 +374,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wWL-2E-EQh"/>
-<<<<<<< Updated upstream
                         <color key="backgroundColor" red="0.44954401249999998" green="0.22861137989999999" blue="0.9765259624" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-=======
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
->>>>>>> Stashed changes
                     </view>
                     <connections>
                         <outlet property="email" destination="JSF-88-GI4" id="LsT-nL-Aj8"/>
@@ -434,34 +383,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OP9-G0-yta" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< Updated upstream
             <point key="canvasLocation" x="-65.217391304347828" y="-571.20535714285711"/>
-=======
-            <point key="canvasLocation" x="1075" y="-1325"/>
->>>>>>> Stashed changes
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QUu-iU-msR">
             <objects>
                 <navigationController id="Yxo-YN-m0z" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UjR-17-UkY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Ybs-Hd-jGY" kind="relationship" relationship="rootViewController" id="Bio-Rb-umU"/>
+                        <segue destination="Ybs-Hd-jGY" kind="relationship" relationship="rootViewController" id="mAM-qh-A7d"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8rR-I8-dwh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1177" y="-571"/>
+            <point key="canvasLocation" x="1090" y="-1268"/>
         </scene>
         <!--Survey Table View Controller-->
         <scene sceneID="79s-zw-DNw">
             <objects>
                 <tableViewController id="Ybs-Hd-jGY" customClass="surveyTableViewController" customModule="Mixer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xfm-I7-77e">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -700,24 +645,9 @@
         <image name="pencil.slash" catalog="system" width="128" height="113"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="pfp" width="440" height="460"/>
-<<<<<<< Updated upstream
         <image name="succ.jpg" width="750" height="500"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-=======
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
->>>>>>> Stashed changes
     </resources>
 </document>
