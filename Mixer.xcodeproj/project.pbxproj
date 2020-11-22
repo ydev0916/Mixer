@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C69CF4F5E2CF53C056700CD /* Pods_Mixer_MixerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248407AB024E4D15DC47A96 /* Pods_Mixer_MixerUITests.framework */; };
+		22C01FED256A49860083DEEF /* imgGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C01FEC256A49860083DEEF /* imgGameViewController.swift */; };
 		CFF1FF1194D4F4B2CBC4F96C /* Pods_MixerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D347FAED3A82AFF88A733A /* Pods_MixerTests.framework */; };
 		D31F663203D018191D934F0E /* Pods_Mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5891FB11BB487BB5FF2D9BFD /* Pods_Mixer.framework */; };
 		E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E369C256A160B00E4CC89 /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		0C0C87E2E39DC3BA1F0FB81B /* Pods-Mixer-MixerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mixer-MixerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mixer-MixerUITests/Pods-Mixer-MixerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2248407AB024E4D15DC47A96 /* Pods_Mixer_MixerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mixer_MixerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C01FEC256A49860083DEEF /* imgGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgGameViewController.swift; sourceTree = "<group>"; };
 		5891FB11BB487BB5FF2D9BFD /* Pods_Mixer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mixer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3E3682DFA4552A23091414 /* Pods-MixerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixerTests.release.xcconfig"; path = "Target Support Files/Pods-MixerTests/Pods-MixerTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B6ACBC5A8AF6406864B38B1 /* Pods-Mixer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mixer.debug.xcconfig"; path = "Target Support Files/Pods-Mixer/Pods-Mixer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				E23E369E256A160B00E4CC89 /* SceneDelegate.swift */,
 				E23E36A0256A160B00E4CC89 /* ViewController.swift */,
 				E23E36A2256A160B00E4CC89 /* Main.storyboard */,
+				22C01FEC256A49860083DEEF /* imgGameViewController.swift */,
 				E23E36A5256A160C00E4CC89 /* Assets.xcassets */,
 				E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */,
 				E23E36AA256A160C00E4CC89 /* Info.plist */,
@@ -417,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C01FED256A49860083DEEF /* imgGameViewController.swift in Sources */,
 				E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */,
 				E23E36A1256A160B00E4CC89 /* ViewController.swift in Sources */,
 				E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */,
