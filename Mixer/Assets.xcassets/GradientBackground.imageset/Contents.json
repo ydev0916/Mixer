@@ -1,8 +1,8 @@
 {
   "images" : [
     {
+      "filename" : "neon-purple-and-bright-neon-blue-ombre-shade-color-fade-shams.jpg-1.png",
       "idiom" : "universal",
-      "filename" : "bg1.png",
       "scale" : "1x"
     },
     {
@@ -15,7 +15,7 @@
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

@@ -1,22 +1,24 @@
 //
-//  imgGameViewController.swift
+//  ProfileViewController.swift
 //  Mixer
 //
-//  Created by tharuni on 11/22/20.
+//  Created by Farhan Juneja on 11/22/20.
 //  Copyright © 2020 Devansh Yerpude. All rights reserved.
 //
 
 import UIKit
 
-class imgGameViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
-    @IBAction func foodGenre(_ sender: Any) {
-        self.performSegue(withIdentifier: "imgGameViewController", sender: self)
-    }
+    
+    @IBOutlet weak var pfpOut: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        pfpOut.layer.masksToBounds = true
+            pfpOut.layer.cornerRadius = pfpOut.bounds.width / 2
+        
+      
     }
     
 
