@@ -12,7 +12,7 @@ class surveyTableViewCell: UITableViewCell {
     @IBOutlet weak var answers: UITextField!
     @IBOutlet weak var questions:
     UILabel!
-    
+    //hello
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
