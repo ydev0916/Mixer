@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import FirebaseFirestore
+import Firebase
 
 class surveyTableViewController: UITableViewController {
 
+    Fire
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
