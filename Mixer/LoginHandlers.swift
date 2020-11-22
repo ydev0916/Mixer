@@ -16,34 +16,19 @@ extension transViewController {
         let picker = UIImagePickerController()
         
         picker.delegate = self
-    picker.allowsEditing = true
+        
         present(picker,animated:true, completion: nil)
     }
     
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: AnyObject]) {
         
-        var selectedImageFromPicker : UIImage?
+        var selectedImageFromPicker: UIImage?
         
-        if let editedImage =
-        info["UIImagePickerControllerEditedImage"] as? UIImage
-        {
-           selectedImageFromPicker = editedImage
-        }
-        
-    else if let originalImage =
-        info["UIImagePickerControllerOriginalImage"] as? UIImage
-        {
-            selectedImageFromPicker = originalImage
-            
-        }
-        
-        imageView.image = selectedImageFromPicker 
-        
-        dismiss(animated: true, completion: nil)
+        selectedImageFromPicker = info["UIImagePickerControllerOriginalImage"] as? UIImage
+
+        imageView.image = selectedImageFromPicker
     }
-    
-    
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
