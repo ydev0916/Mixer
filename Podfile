@@ -9,6 +9,7 @@ target 'Mixer' do
    pod 'PopupDialog', '~> 1.1'
    pod 'Firebase/Firestore'
    pod 'FirebaseFirestoreSwift'  
+   pod 'Firebase/Database'
 
   # Pods for Mixer
 

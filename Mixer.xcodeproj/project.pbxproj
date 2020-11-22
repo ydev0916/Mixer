@@ -12,6 +12,7 @@
 		88D14DC2256A5BB400BF9617 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D14DC1256A5BB400BF9617 /* ProfileViewController.swift */; };
 		CFF1FF1194D4F4B2CBC4F96C /* Pods_MixerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D347FAED3A82AFF88A733A /* Pods_MixerTests.framework */; };
 		D31F663203D018191D934F0E /* Pods_Mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5891FB11BB487BB5FF2D9BFD /* Pods_Mixer.framework */; };
+		E23D7602256A64C5004343D8 /* surveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D7601256A64C4004343D8 /* surveyTableViewCell.swift */; };
 		E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E369C256A160B00E4CC89 /* AppDelegate.swift */; };
 		E23E369F256A160B00E4CC89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E369E256A160B00E4CC89 /* SceneDelegate.swift */; };
 		E23E36A1256A160B00E4CC89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36A0256A160B00E4CC89 /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		88D14DC1256A5BB400BF9617 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A658400E73199EB3E3508FAE /* Pods-MixerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixerTests.debug.xcconfig"; path = "Target Support Files/Pods-MixerTests/Pods-MixerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D347FAED3A82AFF88A733A /* Pods_MixerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23D7601256A64C4004343D8 /* surveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = surveyTableViewCell.swift; path = /Users/Devansh/Desktop/Mixer/Mixer/surveyTableViewCell.swift; sourceTree = "<absolute>"; };
 		E23E3699256A160B00E4CC89 /* Mixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23E369C256A160B00E4CC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E23E369E256A160B00E4CC89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				88D14DC1256A5BB400BF9617 /* ProfileViewController.swift */,
 				22C01FEC256A49860083DEEF /* imgGameViewController.swift */,
 				E23E36A5256A160C00E4CC89 /* Assets.xcassets */,
+				E23D7601256A64C4004343D8 /* surveyTableViewCell.swift */,
 				E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */,
 				E23E36AA256A160C00E4CC89 /* Info.plist */,
 				E23E36CD256A18AD00E4CC89 /* loginViewController.swift */,
@@ -426,6 +429,7 @@
 				22C01FED256A49860083DEEF /* imgGameViewController.swift in Sources */,
 				E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */,
 				E23E36A1256A160B00E4CC89 /* ViewController.swift in Sources */,
+				E23D7602256A64C5004343D8 /* surveyTableViewCell.swift in Sources */,
 				E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */,
 				88D14DC2256A5BB400BF9617 /* ProfileViewController.swift in Sources */,
 				E23E36DA256A44C800E4CC89 /* tableViewController.swift in Sources */,
