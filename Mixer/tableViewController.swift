@@ -10,11 +10,11 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 
-class tableViewController: UIViewController {
+class tableViewController: UIViewController{
     
     let userID = Auth.auth().currentUser?.uid
     
-    @IBOutlet weak var bookArray: UITableView!
+    @IBOutlet var bookArray: UITableView!
     var questions = [NSDictionary?]()
     var ref = Database.database().reference()
     
@@ -22,27 +22,35 @@ class tableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    self.ref.child("questions").queryOrdered(byChild: "userID").observe(.childAdded) { (snapshot) in
+    self.ref.child("questions").observe(.childAdded) { (snapshot) in
             self.questions.append(snapshot.value as? NSDictionary)
-            }
-        self.bookArray.insertRows(at: [IndexPath(row:self.questions.count-1,section:0)], with: UITableView.RowAnimation.automatic)
+        print(self.questions)
     }
-        func numberOfSections(in tableView: UITableView) -> Int {
-       // #warning Incomplete implementation, return the number of sections
-       return 1
-   }
+        
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+
+    // 2
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return questions.count
+    }
+    
+    
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
 //sets the values for the cell, including author, title, and the title cover for image.
-    let book : NSDictionary
-    
-    book = self.questions[indexPath.row]!
     
     let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! surveyTableViewCell
 
-    let string = book["questions"] as? String
+    let book : NSDictionary
+    book = self.questions[indexPath.row]!
     
-    cell.questions.text = string
+    cell.questions.text = book["question"] as? String
+    
+    print(book["question"])
     
     return cell
     
