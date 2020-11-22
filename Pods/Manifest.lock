@@ -1,5 +1,7 @@
 PODS:
   - DynamicBlurView (4.1.0)
+  - Firebase (7.1.0):
+    - Firebase/Core (= 7.1.0)
   - Firebase/Analytics (7.1.0):
     - Firebase/Core
   - Firebase/Auth (7.1.0):
@@ -76,6 +78,7 @@ PODS:
   - PromisesObjC (1.2.11)
 
 DEPENDENCIES:
+  - Firebase
   - Firebase/Analytics
   - Firebase/Auth
   - PopupDialog (~> 1.1)
@@ -113,6 +116,6 @@ SPEC CHECKSUMS:
   PopupDialog: 720c92befd8bc23c13442254945213db5612f149
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
 
-PODFILE CHECKSUM: 3176a2b119ed47455e37ffa0d07ebedf3030bc05
+PODFILE CHECKSUM: 7129bbc556764380f8700167117df4352152489d
 
 COCOAPODS: 1.10.0
