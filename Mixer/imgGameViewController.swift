@@ -10,6 +10,9 @@ import UIKit
 
 class imgGameViewController: UIViewController {
 
+    @IBAction func foodGenre(_ sender: Any) {
+        self.performSegue(withIdentifier: "imgGameViewController", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
