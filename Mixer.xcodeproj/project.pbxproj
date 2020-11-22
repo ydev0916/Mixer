@@ -23,7 +23,6 @@
 		E23E36B4256A160C00E4CC89 /* MixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36B3256A160C00E4CC89 /* MixerTests.swift */; };
 		E23E36BF256A160C00E4CC89 /* MixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36BE256A160C00E4CC89 /* MixerUITests.swift */; };
 		E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36CD256A18AD00E4CC89 /* loginViewController.swift */; };
-		E23E36DA256A44C800E4CC89 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36D9256A44C800E4CC89 /* tableViewController.swift */; };
 		E23E36DC256A493C00E4CC89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E23E36DB256A493C00E4CC89 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -73,7 +72,6 @@
 		E23E36BE256A160C00E4CC89 /* MixerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerUITests.swift; sourceTree = "<group>"; };
 		E23E36C0256A160C00E4CC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E23E36CD256A18AD00E4CC89 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		E23E36D9256A44C800E4CC89 /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		E23E36DB256A493C00E4CC89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,7 +163,6 @@
 				E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */,
 				E23E36AA256A160C00E4CC89 /* Info.plist */,
 				E23E36CD256A18AD00E4CC89 /* loginViewController.swift */,
-				E23E36D9256A44C800E4CC89 /* tableViewController.swift */,
 				E23E36DB256A493C00E4CC89 /* GoogleService-Info.plist */,
 			);
 			path = Mixer;
@@ -435,7 +432,6 @@
 				E23D7602256A64C5004343D8 /* surveyTableViewCell.swift in Sources */,
 				E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */,
 				88D14DC2256A5BB400BF9617 /* ProfileViewController.swift in Sources */,
-				E23E36DA256A44C800E4CC89 /* tableViewController.swift in Sources */,
 				E23E369F256A160B00E4CC89 /* SceneDelegate.swift in Sources */,
 				8895597C256A7E21004356CA /* surveyTableViewController.swift in Sources */,
 			);
