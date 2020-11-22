@@ -68,9 +68,7 @@ class transViewController: UIViewController, UIImagePickerControllerDelegate & U
     
     }
     
-    
-    
-        
+
         //share with social medai found on phone
         
 

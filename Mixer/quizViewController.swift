@@ -20,18 +20,19 @@ class quizViewController: UIViewController {
     
     @IBOutlet weak var score: UILabel!
     
+
+    @IBAction func choice1(_ sender: Any) {
+        self.performSegue(withIdentifier: "quizViewController", sender: self)
+    }
     
-    @IBOutlet weak var choice1: UIButton!
+    @IBAction func choice2(_ sender: Any) {
+    }
     
-    @IBOutlet weak var choice2: UIButton!
+    @IBAction func choice3(_ sender: Any) {
+    }
     
-    @IBOutlet weak var choice3: UIButton!
-    
-    
-    @IBOutlet weak var choice4: UIButton!
-    
-    
-    
+    @IBAction func choice4(_ sender: Any) {
+    }
     
         override func viewDidLoad() {
         super.viewDidLoad()
