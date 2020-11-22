@@ -36,6 +36,8 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 //sets the values for the cell, including author, title, and the title cover for image.
     let book : NSDictionary
     
+    book = self.questions[indexPath.row]!
+    
     let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! surveyTableViewCell
 
     let string = book["questions"] as? String
