@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		E23E36A9256A160C00E4CC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */; };
 		E23E36B4256A160C00E4CC89 /* MixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36B3256A160C00E4CC89 /* MixerTests.swift */; };
 		E23E36BF256A160C00E4CC89 /* MixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36BE256A160C00E4CC89 /* MixerUITests.swift */; };
+		F0452432256A1A1D00C70D02 /* TriviaBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0452431256A1A1D00C70D02 /* TriviaBank.swift */; };
+		F045243F256A1A5000C70D02 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045243E256A1A5000C70D02 /* Trivia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		E23E36BA256A160C00E4CC89 /* MixerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23E36BE256A160C00E4CC89 /* MixerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerUITests.swift; sourceTree = "<group>"; };
 		E23E36C0256A160C00E4CC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0452431256A1A1D00C70D02 /* TriviaBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaBank.swift; sourceTree = "<group>"; };
+		F045243E256A1A5000C70D02 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,6 @@
 				A658400E73199EB3E3508FAE /* Pods-MixerTests.debug.xcconfig */,
 				5E3E3682DFA4552A23091414 /* Pods-MixerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,7 +147,9 @@
 				E23E369E256A160B00E4CC89 /* SceneDelegate.swift */,
 				E23E36A0256A160B00E4CC89 /* ViewController.swift */,
 				E23E36A2256A160B00E4CC89 /* Main.storyboard */,
+				F0452431256A1A1D00C70D02 /* TriviaBank.swift */,
 				E23E36A5256A160C00E4CC89 /* Assets.xcassets */,
+				F045243E256A1A5000C70D02 /* Trivia.swift */,
 				E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */,
 				E23E36AA256A160C00E4CC89 /* Info.plist */,
 			);
@@ -392,6 +397,8 @@
 			files = (
 				E23E36A1256A160B00E4CC89 /* ViewController.swift in Sources */,
 				E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */,
+				F045243F256A1A5000C70D02 /* Trivia.swift in Sources */,
+				F0452432256A1A1D00C70D02 /* TriviaBank.swift in Sources */,
 				E23E369F256A160B00E4CC89 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
