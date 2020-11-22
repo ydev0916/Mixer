@@ -69,28 +69,56 @@
                     <connections>
                         <outlet property="email" destination="JSF-88-GI4" id="LsT-nL-Aj8"/>
                         <outlet property="password" destination="1E4-IR-zmK" id="HKx-2o-duI"/>
-                        <segue destination="w2E-om-B1c" kind="show" identifier="loginSegue" id="pAh-f3-spV"/>
+                        <segue destination="1hQ-v0-wpt" kind="show" identifier="loginSegue" id="Bxd-g6-NmJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OP9-G0-yta" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="-569.19642857142856"/>
+            <point key="canvasLocation" x="183" y="-569"/>
         </scene>
-        <!--Survey View Controller-->
-        <scene sceneID="5zT-1T-SHv">
+        <!--Table View Controller-->
+        <scene sceneID="yr7-68-Wmn">
             <objects>
-                <viewController id="w2E-om-B1c" customClass="surveyViewController" customModule="Mixer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="sPm-9c-zv8">
+                <tableViewController id="1hQ-v0-wpt" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bgZ-PP-bgY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="XHZ-kz-Pcc"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="fBt-w2-RTW"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3PY-qG-shg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="Ifu-E3-fnl">
+                                <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ifu-E3-fnl" id="a6d-Es-4nt">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Answer" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UDG-Jm-gb5">
+                                            <rect key="frame" x="10" y="35" width="394" height="34"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBk-gA-Fcq">
+                                            <rect key="frame" x="10" y="6" width="374" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1hQ-v0-wpt" id="EGu-Gl-gq8"/>
+                            <outlet property="delegate" destination="1hQ-v0-wpt" id="rjU-m5-Eyc"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Vrw-VQ-H3S"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shF-wy-oOa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1135" y="-569"/>
+            <point key="canvasLocation" x="1015.9420289855074" y="-569.19642857142856"/>
         </scene>
     </scenes>
 </document>
