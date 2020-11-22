@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import FirebaseAuth
-import PopupDialog
+
 
 class loginViewController: UIViewController {
     
