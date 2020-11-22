@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HNa-4d-VLh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HNa-4d-VLh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+>>>>>>> parent of bd91304... big dump
 =======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HNa-4d-VLh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
@@ -27,8 +35,11 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZf-gz-Q9U">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <rect key="frame" x="20" y="180" width="175" height="175"/>
 =======
+=======
+>>>>>>> parent of bd91304... big dump
                                 <rect key="frame" x="20" y="259" width="120" height="120"/>
 >>>>>>> parent of bd91304... big dump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -43,8 +54,11 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrA-p5-vVi">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <rect key="frame" x="219" y="564" width="175" height="175"/>
 =======
+=======
+>>>>>>> parent of bd91304... big dump
                                 <rect key="frame" x="274" y="387" width="120" height="120"/>
 >>>>>>> parent of bd91304... big dump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -55,9 +69,12 @@
                                 </state>
                             </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxK-WY-BmY">
                                 <rect key="frame" x="219" y="371" width="175" height="175"/>
 =======
+=======
+>>>>>>> parent of bd91304... big dump
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgn-OJ-Iv6">
                                 <rect key="frame" x="274" y="259" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -79,8 +96,11 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5CM-sD-O9T">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <rect key="frame" x="20" y="565" width="175" height="175"/>
 =======
+=======
+>>>>>>> parent of bd91304... big dump
                                 <rect key="frame" x="148" y="259" width="120" height="120"/>
 >>>>>>> parent of bd91304... big dump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -100,8 +120,11 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdw-Ua-n9U">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <rect key="frame" x="20" y="371" width="175" height="175"/>
 =======
+=======
+>>>>>>> parent of bd91304... big dump
                                 <rect key="frame" x="20" y="387" width="120" height="120"/>
 >>>>>>> parent of bd91304... big dump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -338,15 +361,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONGRATULATIONS YOU MADE AN ACCOUNT. " textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgV-Xl-LYi">
                                 <rect key="frame" x="57" y="341" width="300" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
 =======
+=======
+>>>>>>> parent of bd91304... big dump
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONGRATULATIONS YOU MADE AN ACCOUNT. " textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgV-Xl-LYi">
                                 <rect key="frame" x="57" y="341" width="300" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
+<<<<<<< HEAD
+>>>>>>> parent of bd91304... big dump
+=======
 >>>>>>> parent of bd91304... big dump
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -525,6 +554,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tub-dr-Def">
                                 <rect key="frame" x="33" y="174" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -536,6 +566,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6D-Xa-1D0">
                                 <rect key="frame" x="331" y="174" width="50" height="50"/>
 =======
+=======
+>>>>>>> parent of bd91304... big dump
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGY-D5-xuk">
                                 <rect key="frame" x="184" y="420" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -704,7 +736,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LMG-FS-Yvy"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <color key="backgroundColor" red="0.50129222870000001" green="0.8271691203" blue="0.83530050519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+=======
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+>>>>>>> parent of bd91304... big dump
 =======
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
 >>>>>>> parent of bd91304... big dump
@@ -721,6 +757,7 @@
             </objects>
             <point key="canvasLocation" x="382.60869565217394" y="222.99107142857142"/>
         </scene>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <!--Trivia-->
         <scene sceneID="V4f-zM-UNQ">
@@ -869,6 +906,8 @@
             </objects>
             <point key="canvasLocation" x="383" y="903"/>
         </scene>
+=======
+>>>>>>> parent of bd91304... big dump
 =======
 >>>>>>> parent of bd91304... big dump
     </scenes>

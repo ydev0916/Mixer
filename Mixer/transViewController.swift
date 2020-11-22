@@ -11,6 +11,7 @@ import UIKit
 class transViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
+<<<<<<< HEAD
     
 <<<<<<< HEAD
 
@@ -18,7 +19,16 @@ class transViewController: UIViewController, UIImagePickerControllerDelegate & U
         
 =======
    
+=======
+>>>>>>> parent of bd91304... big dump
     
+   
+    
+<<<<<<< HEAD
+    override func viewDidLoad() {
+        super.viewDidLoad()
+>>>>>>> parent of bd91304... big dump
+=======
     
     override func viewDidLoad() {
         super.viewDidLoad()
