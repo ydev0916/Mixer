@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		E23E36A9256A160C00E4CC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */; };
 		E23E36B4256A160C00E4CC89 /* MixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36B3256A160C00E4CC89 /* MixerTests.swift */; };
 		E23E36BF256A160C00E4CC89 /* MixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36BE256A160C00E4CC89 /* MixerUITests.swift */; };
+		E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36CD256A18AD00E4CC89 /* loginViewController.swift */; };
+		E23E36D0256A23A700E4CC89 /* succ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E23E36CF256A23A700E4CC89 /* succ.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		E23E36BA256A160C00E4CC89 /* MixerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23E36BE256A160C00E4CC89 /* MixerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerUITests.swift; sourceTree = "<group>"; };
 		E23E36C0256A160C00E4CC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23E36CD256A18AD00E4CC89 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E23E36CF256A23A700E4CC89 /* succ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = succ.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,6 @@
 				A658400E73199EB3E3508FAE /* Pods-MixerTests.debug.xcconfig */,
 				5E3E3682DFA4552A23091414 /* Pods-MixerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +143,7 @@
 		E23E369B256A160B00E4CC89 /* Mixer */ = {
 			isa = PBXGroup;
 			children = (
+				E23E36D1256A23B500E4CC89 /* Images */,
 				E23E369C256A160B00E4CC89 /* AppDelegate.swift */,
 				E23E369E256A160B00E4CC89 /* SceneDelegate.swift */,
 				E23E36A0256A160B00E4CC89 /* ViewController.swift */,
@@ -147,6 +151,7 @@
 				E23E36A5256A160C00E4CC89 /* Assets.xcassets */,
 				E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */,
 				E23E36AA256A160C00E4CC89 /* Info.plist */,
+				E23E36CD256A18AD00E4CC89 /* loginViewController.swift */,
 			);
 			path = Mixer;
 			sourceTree = "<group>";
@@ -167,6 +172,14 @@
 				E23E36C0256A160C00E4CC89 /* Info.plist */,
 			);
 			path = MixerUITests;
+			sourceTree = "<group>";
+		};
+		E23E36D1256A23B500E4CC89 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E23E36CF256A23A700E4CC89 /* succ.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23E36A9256A160C00E4CC89 /* LaunchScreen.storyboard in Resources */,
+				E23E36D0256A23A700E4CC89 /* succ.jpg in Resources */,
 				E23E36A6256A160C00E4CC89 /* Assets.xcassets in Resources */,
 				E23E36A4256A160B00E4CC89 /* Main.storyboard in Resources */,
 			);
@@ -390,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */,
 				E23E36A1256A160B00E4CC89 /* ViewController.swift in Sources */,
 				E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */,
 				E23E369F256A160B00E4CC89 /* SceneDelegate.swift in Sources */,
