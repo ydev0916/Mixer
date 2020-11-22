@@ -18,8 +18,9 @@
 		E23E36A9256A160C00E4CC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */; };
 		E23E36B4256A160C00E4CC89 /* MixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36B3256A160C00E4CC89 /* MixerTests.swift */; };
 		E23E36BF256A160C00E4CC89 /* MixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36BE256A160C00E4CC89 /* MixerUITests.swift */; };
-		F0452432256A1A1D00C70D02 /* TriviaBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0452431256A1A1D00C70D02 /* TriviaBank.swift */; };
-		F045243F256A1A5000C70D02 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045243E256A1A5000C70D02 /* Trivia.swift */; };
+		E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36CD256A18AD00E4CC89 /* loginViewController.swift */; };
+		E23E36D3256A28C700E4CC89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E23E36D2256A28C700E4CC89 /* GoogleService-Info.plist */; };
+		E23E36D8256A317E00E4CC89 /* surveyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36D7256A317E00E4CC89 /* surveyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +64,9 @@
 		E23E36BA256A160C00E4CC89 /* MixerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23E36BE256A160C00E4CC89 /* MixerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerUITests.swift; sourceTree = "<group>"; };
 		E23E36C0256A160C00E4CC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0452431256A1A1D00C70D02 /* TriviaBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaBank.swift; sourceTree = "<group>"; };
-		F045243E256A1A5000C70D02 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		E23E36CD256A18AD00E4CC89 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E23E36D2256A28C700E4CC89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E23E36D7256A317E00E4CC89 /* surveyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,11 +149,12 @@
 				E23E369E256A160B00E4CC89 /* SceneDelegate.swift */,
 				E23E36A0256A160B00E4CC89 /* ViewController.swift */,
 				E23E36A2256A160B00E4CC89 /* Main.storyboard */,
-				F0452431256A1A1D00C70D02 /* TriviaBank.swift */,
 				E23E36A5256A160C00E4CC89 /* Assets.xcassets */,
-				F045243E256A1A5000C70D02 /* Trivia.swift */,
 				E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */,
 				E23E36AA256A160C00E4CC89 /* Info.plist */,
+				E23E36CD256A18AD00E4CC89 /* loginViewController.swift */,
+				E23E36D2256A28C700E4CC89 /* GoogleService-Info.plist */,
+				E23E36D7256A317E00E4CC89 /* surveyTableViewController.swift */,
 			);
 			path = Mixer;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				E23E3695256A160B00E4CC89 /* Sources */,
 				E23E3696256A160B00E4CC89 /* Frameworks */,
 				E23E3697256A160B00E4CC89 /* Resources */,
+				07BD118D04533D027B82C41A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,7 +207,6 @@
 				E23E36AB256A160C00E4CC89 /* Sources */,
 				E23E36AC256A160C00E4CC89 /* Frameworks */,
 				E23E36AD256A160C00E4CC89 /* Resources */,
-				82C69DF85290D41AD8D74682 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +226,7 @@
 				E23E36B6256A160C00E4CC89 /* Sources */,
 				E23E36B7256A160C00E4CC89 /* Frameworks */,
 				E23E36B8256A160C00E4CC89 /* Resources */,
+				E40078935B5ADB8578CE5799 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23E36A9256A160C00E4CC89 /* LaunchScreen.storyboard in Resources */,
+				E23E36D3256A28C700E4CC89 /* GoogleService-Info.plist in Resources */,
 				E23E36A6256A160C00E4CC89 /* Assets.xcassets in Resources */,
 				E23E36A4256A160B00E4CC89 /* Main.storyboard in Resources */,
 			);
@@ -305,6 +310,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		07BD118D04533D027B82C41A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mixer/Pods-Mixer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mixer/Pods-Mixer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mixer/Pods-Mixer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		46FBEC8524AE5ECC195668CF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,23 +371,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82C69DF85290D41AD8D74682 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MixerTests/Pods-MixerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MixerTests/Pods-MixerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MixerTests/Pods-MixerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8FB118BD39BCA0824026B77F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,6 +393,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E40078935B5ADB8578CE5799 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mixer-MixerUITests/Pods-Mixer-MixerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mixer-MixerUITests/Pods-Mixer-MixerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mixer-MixerUITests/Pods-Mixer-MixerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -395,10 +417,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */,
 				E23E36A1256A160B00E4CC89 /* ViewController.swift in Sources */,
 				E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */,
-				F045243F256A1A5000C70D02 /* Trivia.swift in Sources */,
-				F0452432256A1A1D00C70D02 /* TriviaBank.swift in Sources */,
+				E23E36D8256A317E00E4CC89 /* surveyTableViewController.swift in Sources */,
 				E23E369F256A160B00E4CC89 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
