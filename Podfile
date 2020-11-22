@@ -4,11 +4,12 @@
 target 'Mixer' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-   pod 'Firebase'
    pod 'Firebase/Auth'
    pod 'Firebase/Analytics'  
    pod 'PopupDialog', '~> 1.1'
-  
+   pod 'Firebase/Firestore'
+   pod 'FirebaseFirestoreSwift'  
+
   # Pods for Mixer
 
   target 'MixerTests' do
