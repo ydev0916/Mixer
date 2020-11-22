@@ -20,6 +20,7 @@
 		E23E36BF256A160C00E4CC89 /* MixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36BE256A160C00E4CC89 /* MixerUITests.swift */; };
 		E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36CD256A18AD00E4CC89 /* loginViewController.swift */; };
 		E23E36D3256A28C700E4CC89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E23E36D2256A28C700E4CC89 /* GoogleService-Info.plist */; };
+		E23E36D6256A310200E4CC89 /* surveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36D5256A310200E4CC89 /* surveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		E23E36C0256A160C00E4CC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E23E36CD256A18AD00E4CC89 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		E23E36D2256A28C700E4CC89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E23E36D5256A310200E4CC89 /* surveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				E23E369C256A160B00E4CC89 /* AppDelegate.swift */,
+				E23E36D5256A310200E4CC89 /* surveyViewController.swift */,
 				E23E369E256A160B00E4CC89 /* SceneDelegate.swift */,
 				E23E36A0256A160B00E4CC89 /* ViewController.swift */,
 				E23E36A2256A160B00E4CC89 /* Main.storyboard */,
@@ -414,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23E36D6256A310200E4CC89 /* surveyViewController.swift in Sources */,
 				E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */,
 				E23E36A1256A160B00E4CC89 /* ViewController.swift in Sources */,
 				E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */,
