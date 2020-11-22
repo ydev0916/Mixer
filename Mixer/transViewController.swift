@@ -24,8 +24,7 @@ class transViewController: UIViewController, UIImagePickerControllerDelegate & U
         // Do any additional setup after loading the view.
     }
     
-    let storageRef = 
-    
+
     @IBAction func submit(_ sender: UIButton) {
         
         
