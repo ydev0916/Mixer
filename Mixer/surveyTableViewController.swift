@@ -11,6 +11,11 @@ import FirebaseFirestore
 import Firebase
 
 class surveyTableViewController: UITableViewController {
+//<<<<<<< Updated upstream
+//=======
+//
+//
+//>>>>>>> Stashed changes
     
     override func viewDidLoad() {
         super.viewDidLoad()
