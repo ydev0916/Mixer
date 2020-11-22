@@ -12,6 +12,8 @@ target 'Mixer' do
     # Pods for testing
     pod 'Firebase/Auth'
     pod 'Firebase/Analytics'  
+    pod 'PopupDialog', '~> 1.1'
+
 end
 
   target 'MixerUITests' do
