@@ -20,15 +20,7 @@ class quizViewController: UIViewController {
     
     @IBOutlet weak var score: UILabel!
     
-    
-    @IBOutlet weak var choice1: UIButton!
-    
-    @IBOutlet weak var choice2: UIButton!
-    
-    @IBOutlet weak var choice3: UIButton!
-    
-    
-    @IBOutlet weak var choice4: UIButton!
+
     
     
     

@@ -528,18 +528,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="97"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJe-Fu-TsH">
-                                                    <rect key="frame" x="20" y="5" width="334" height="86"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISf-Hy-3rV">
+                                                    <rect key="frame" x="20" y="11" width="334" height="86"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.32496026160000002" green="0.25472807879999998" blue="0.99613505599999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <color key="backgroundColor" red="0.30980392159999998" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                                     <state key="normal" title="Button">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
-                                                    <connections>
-                                                        <action selector="choice2:" destination="lOq-Fk-1yf" eventType="touchUpInside" id="z5a-Eh-OAa"/>
-                                                        <action selector="pressed:" destination="lOq-Fk-1yf" eventType="touchUpInside" id="iaM-GA-Xf1"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -552,18 +548,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="97"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWg-tw-U1O">
-                                                    <rect key="frame" x="20" y="5" width="334" height="86"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2Y-Q9-NSM">
+                                                    <rect key="frame" x="20" y="11" width="334" height="86"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.32496026160000002" green="0.25472807879999998" blue="0.99613505599999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <color key="backgroundColor" red="0.30980392159999998" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                                     <state key="normal" title="Button">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
-                                                    <connections>
-                                                        <action selector="choice3:" destination="lOq-Fk-1yf" eventType="touchUpInside" id="HBf-Mc-Icv"/>
-                                                        <action selector="pressed:" destination="lOq-Fk-1yf" eventType="touchUpInside" id="lC0-9e-9e2"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -576,18 +568,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="97"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGY-D5-xuk">
-                                                    <rect key="frame" x="20" y="5" width="334" height="86"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHj-3j-BWI">
+                                                    <rect key="frame" x="20" y="11" width="334" height="86"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.32496026160000002" green="0.25472807879999998" blue="0.99613505599999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <color key="backgroundColor" red="0.30980392159999998" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                                     <state key="normal" title="Button">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
-                                                    <connections>
-                                                        <action selector="choice1:" destination="lOq-Fk-1yf" eventType="touchUpInside" id="2BZ-Ke-YOQ"/>
-                                                        <action selector="pressed:" destination="lOq-Fk-1yf" eventType="touchUpInside" id="90G-kl-8dN"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -600,18 +588,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="97"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oMA-Zr-RGT">
-                                                    <rect key="frame" x="20" y="5" width="334" height="86"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuQ-pO-pDo">
+                                                    <rect key="frame" x="20" y="11" width="334" height="86"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.32496026160000002" green="0.25472807879999998" blue="0.99613505599999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <color key="backgroundColor" red="0.30980392159999998" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                                     <state key="normal" title="Button">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
-                                                    <connections>
-                                                        <action selector="choice4:" destination="lOq-Fk-1yf" eventType="touchUpInside" id="73T-fN-0Vu"/>
-                                                        <action selector="pressed:" destination="lOq-Fk-1yf" eventType="touchUpInside" id="kyf-Ey-C2n"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -625,10 +609,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Trivia" image="pencil.slash" catalog="system" id="9md-ry-CPI"/>
                     <connections>
-                        <outlet property="choice1" destination="cJe-Fu-TsH" id="fsp-Qa-L0Q"/>
-                        <outlet property="choice2" destination="bGY-D5-xuk" id="gdO-8A-duJ"/>
-                        <outlet property="choice3" destination="oWg-tw-U1O" id="VXa-Nh-4f8"/>
-                        <outlet property="choice4" destination="oMA-Zr-RGT" id="z8g-l5-NXT"/>
                         <outlet property="counter" destination="tub-dr-Def" id="eWe-0n-0bv"/>
                         <outlet property="question" destination="PW1-oK-mMm" id="tfi-HF-cLw"/>
                         <outlet property="score" destination="o6D-Xa-1D0" id="fB1-Bd-6OQ"/>
