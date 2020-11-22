@@ -11,5 +11,4 @@ culture.
 
 Here is a screenshot of the genre selection inside the app.
 
-<img src="Mixer/Images/Screen Shot 2020-11-22 at 12.21.56 PM.png" height = "450">
-
+<img src="Mixer/Images/Screen Shot 2020-11-22 at 12.21.56 PM.png" height = "450"> <img src="Screen Shot 2020-11-22 at 12.23.03 PM.png" height = "450">
