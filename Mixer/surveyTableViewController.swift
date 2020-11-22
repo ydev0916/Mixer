@@ -24,6 +24,8 @@ class surveyTableViewController: UITableViewController {
                 self.questions.append(snapshot.value as? NSDictionary)
             print(self.questions)
         }
+        
+        self.bookArray.insertRows(at: [IndexPath(row:self.questions.count-1,section:0)], with: UITableView.RowAnimation.automatic)
     }
     
 
@@ -31,13 +33,51 @@ class surveyTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return questions.count
     }
+    
+    
+    
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+    //sets the values for the cell, including author, title, and the title cover for image.
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! surveyTableViewCell
+
+        let book : NSDictionary
+        book = self.questions[indexPath.row]!
+        
+        cell.questions.text = book["question"] as? String
+        
+        //print(book["question"])
+        
+        return cell
+        
+        }
+    
+    @IBAction func submit(_ sender: UIButton) {
+         
+           var counter = 0
+           
+           for cell in bookArray.visibleCells {
+               
+           let curr = cell as! surveyTableViewCell
+               
+               ref.child("users").child(userID!).setValue([counter : curr.answers.text])
+               
+           counter = counter + 1
+           }
+
+         
+    }
+    
+    
+    
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
