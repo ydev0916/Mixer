@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "072CEA044D2EF26F03496D5996BBF59F"
-               BuildableName = "Firebase"
-               BlueprintName = "Firebase"
+               BlueprintIdentifier = "73CDC3D182DB953135F62609681B443D"
+               BuildableName = "absl.framework"
+               BlueprintName = "abseil"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
