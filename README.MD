@@ -8,3 +8,5 @@ Our goal is to partner with and provide this service for companies so that they 
 ## Mobile App
 The Mobile App allows users to create an profile for themselves. They can then perform a trivia challenge on other people's profiles to get an idea of their
 culture.
+
+![]()
