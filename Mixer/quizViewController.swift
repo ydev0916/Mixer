@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import FirebaseDatabase
+
+
 
 class quizViewController: UIViewController {
 
@@ -18,14 +21,50 @@ class quizViewController: UIViewController {
     @IBOutlet weak var score: UILabel!
     
     
+    @IBOutlet weak var choice1: UIButton!
+    
+    @IBOutlet weak var choice2: UIButton!
+    
+    @IBOutlet weak var choice3: UIButton!
+    
+    
+    @IBOutlet weak var choice4: UIButton!
     
     
     
     
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    
+    @IBAction func pressed(_ sender: UIButton) {
+    
+    
+    if sender.tag == 1 {
+    
+    
+    }
+    
+    else if sender.tag == 2 {
+        }
+    
+    else if sender.tag == 3 {
+    }
+    
+    else if sender.tag == 4 {
+        }
+    
+    
+    }
+    
+    
+    func updateQuestion() {
+        
+    
+    
     }
     
 

@@ -38,7 +38,13 @@ class loginViewController: UIViewController {
                 else {
                     self.title1 = "Error"
                     self.desc1 = "Please enter correct username/password"
+                    self.img = #imageLiteral(resourceName: "sad")
                     let popup = PopupDialog(title: self.title1, message: self.desc1, image: self.img)
+                    let button = DefaultButton(title: "OK") {
+                        self.shouldPerformSegue(withIdentifier: "loginSeg", sender: self)
+                    }
+                    
+                    popup.addButton(button)
                     self.present(popup, animated: true, completion: nil)
                 }
             }
@@ -52,11 +58,9 @@ class loginViewController: UIViewController {
                   Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (user, error) in
                       
                       if user != nil {
-                          
-                        self.title1 = "Success"
-                        self.desc1 = "You created account, please login"
-                        let popup = PopupDialog(title: self.title1, message: self.desc1, image: self.img)
-                        self.present(popup, animated: true, completion: nil)
+                        
+                        
+                        self.shouldPerformSegue(withIdentifier: "createAccSeg", sender: self)
                           
                       }
                   }
