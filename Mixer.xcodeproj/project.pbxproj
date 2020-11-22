@@ -55,7 +55,7 @@
 		88D14DC1256A5BB400BF9617 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A658400E73199EB3E3508FAE /* Pods-MixerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixerTests.debug.xcconfig"; path = "Target Support Files/Pods-MixerTests/Pods-MixerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D347FAED3A82AFF88A733A /* Pods_MixerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E23D7601256A64C4004343D8 /* surveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = surveyTableViewCell.swift; path = /Users/Devansh/Desktop/Mixer/Mixer/surveyTableViewCell.swift; sourceTree = "<absolute>"; };
+		E23D7601256A64C4004343D8 /* surveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveyTableViewCell.swift; sourceTree = "<group>"; };
 		E23E3699256A160B00E4CC89 /* Mixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23E369C256A160B00E4CC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E23E369E256A160B00E4CC89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
