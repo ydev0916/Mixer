@@ -37,8 +37,8 @@ class loginViewController: UIViewController {
                     
                 else {
                     self.title1 = "Error"
-                    self.desc1 = "You have entered the wrong username or password. Please try again. If you've forgotten your password, please send an email to us at: iLibrary@nhs.org"
-                    let popup = PopupDialog(title: title1, message: self.desc1, image: self.img)
+                    self.desc1 = "Please enter correct username/password"
+                    let popup = PopupDialog(title: self.title1, message: self.desc1, image: self.img)
                     self.present(popup, animated: true, completion: nil)
                 }
             }

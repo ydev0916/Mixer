@@ -20,8 +20,8 @@
 		E23E36B4256A160C00E4CC89 /* MixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36B3256A160C00E4CC89 /* MixerTests.swift */; };
 		E23E36BF256A160C00E4CC89 /* MixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36BE256A160C00E4CC89 /* MixerUITests.swift */; };
 		E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36CD256A18AD00E4CC89 /* loginViewController.swift */; };
-		E23E36D3256A28C700E4CC89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E23E36D2256A28C700E4CC89 /* GoogleService-Info.plist */; };
-		E23E36D8256A317E00E4CC89 /* surveyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36D7256A317E00E4CC89 /* surveyTableViewController.swift */; };
+		E23E36DA256A44C800E4CC89 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E36D9256A44C800E4CC89 /* tableViewController.swift */; };
+		E23E36DC256A493C00E4CC89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E23E36DB256A493C00E4CC89 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		E23E36BE256A160C00E4CC89 /* MixerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerUITests.swift; sourceTree = "<group>"; };
 		E23E36C0256A160C00E4CC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E23E36CD256A18AD00E4CC89 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		E23E36D2256A28C700E4CC89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E23E36D7256A317E00E4CC89 /* surveyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveyTableViewController.swift; sourceTree = "<group>"; };
+		E23E36D9256A44C800E4CC89 /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
+		E23E36DB256A493C00E4CC89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +156,8 @@
 				E23E36A7256A160C00E4CC89 /* LaunchScreen.storyboard */,
 				E23E36AA256A160C00E4CC89 /* Info.plist */,
 				E23E36CD256A18AD00E4CC89 /* loginViewController.swift */,
-				E23E36D2256A28C700E4CC89 /* GoogleService-Info.plist */,
-				E23E36D7256A317E00E4CC89 /* surveyTableViewController.swift */,
+				E23E36D9256A44C800E4CC89 /* tableViewController.swift */,
+				E23E36DB256A493C00E4CC89 /* GoogleService-Info.plist */,
 			);
 			path = Mixer;
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23E36A9256A160C00E4CC89 /* LaunchScreen.storyboard in Resources */,
-				E23E36D3256A28C700E4CC89 /* GoogleService-Info.plist in Resources */,
+				E23E36DC256A493C00E4CC89 /* GoogleService-Info.plist in Resources */,
 				E23E36A6256A160C00E4CC89 /* Assets.xcassets in Resources */,
 				E23E36A4256A160B00E4CC89 /* Main.storyboard in Resources */,
 			);
@@ -424,7 +424,7 @@
 				E23E36CE256A18AD00E4CC89 /* loginViewController.swift in Sources */,
 				E23E36A1256A160B00E4CC89 /* ViewController.swift in Sources */,
 				E23E369D256A160B00E4CC89 /* AppDelegate.swift in Sources */,
-				E23E36D8256A317E00E4CC89 /* surveyTableViewController.swift in Sources */,
+				E23E36DA256A44C800E4CC89 /* tableViewController.swift in Sources */,
 				E23E369F256A160B00E4CC89 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
