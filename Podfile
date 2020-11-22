@@ -11,7 +11,8 @@ target 'Mixer' do
    pod 'FirebaseFirestoreSwift'  
    pod 'Firebase/Database'
    pod 'Alamofire', '~> 5.2'
-  # Pods for Mixer
+   pod 'Firebase/Storage'  
+# Pods for Mixer
 
   target 'MixerTests' do
     inherit! :search_paths
