@@ -365,6 +365,13 @@
                                 <rect key="frame" x="29" y="44" width="357" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="singleStory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrE-SB-iak">
+                                <rect key="frame" x="29" y="594" width="348" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="60"/>
+                                <color key="textColor" red="0.054128929970000003" green="0.84318786859999995" blue="0.82745647430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wWL-2E-EQh"/>
                         <color key="backgroundColor" red="0.44954401249999998" green="0.22861137989999999" blue="0.9765259624" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
